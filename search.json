@@ -5,6 +5,7 @@ search: exclude
 ---
 
 [
+{% comment %}
 {% for page in site.pages %}
 {% unless page.search == "exclude" %}
 {
@@ -30,6 +31,7 @@ search: exclude
 
 {% unless forloop.last and site.docs.size < 1 %},{% endunless %}
 {% endfor %}
+{% endcomment %}
 
 {% for doc in site.docs %}
 
