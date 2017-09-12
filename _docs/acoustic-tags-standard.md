@@ -166,7 +166,7 @@ This menu option will be available to unregistered users but data availability m
 
 <!-- ![Relational_database_diagram](./database1.jpg){:height="100"} -->
 
- <a href="/animal-telemetry-jekyll/database1.jpg"><img alt="thumb" src="/animal-telemetry-jekyll/database-small.jpg"></a> 
+ <a href="/animal-telemetry/database1.jpg"><img alt="thumb" src="/animal-telemetry/database-small.jpg"></a> 
 
 <!-- <img src="./database1.jpg" height="800"> -->
 (click for full-size image)
