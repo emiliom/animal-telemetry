@@ -34,14 +34,14 @@ Although the AAT project focused on the Pacific NW for needs assessments and dat
 
 # Project Documentation and Reports
 
-  - [Statement of Work](http://habu.apl.washington.edu/mayorga/aat/Animal%20Acoustic%20Telemetry%20Obs_SOW.pdf)
-  - [POST Data System Description](http://habu.apl.washington.edu/mayorga/aat/POST_DataSystemDescription_DRAFT1.0.pdf)
+  - [Statement of Work](http://data.nanoos.org/files/aat/Animal%20Acoustic%20Telemetry%20Obs_SOW.pdf)
+  - [POST Data System Description](http://data.nanoos.org/files/aat/POST_DataSystemDescription_DRAFT1.0.pdf)
   - Customer Requirements Assessment
-     - [Survey Questionnaire](http://habu.apl.washington.edu/mayorga/aat/AAT_CustomerRequirementsQuestionnaire.pdf)
-     - [Survey results and requirements synthesis](http://habu.apl.washington.edu/mayorga/aat/AAT_CustomerRequirements_2012Sep4.pdf). This document includes a brief comparison of some existing systems.
+     - [Survey Questionnaire](http://data.nanoos.org/files/aat/AAT_CustomerRequirementsQuestionnaire.pdf)
+     - [Survey results and requirements synthesis](http://data.nanoos.org/files/aat/AAT_CustomerRequirements_2012Sep4.pdf). This document includes a brief comparison of some existing systems.
   - [Content Standard: A metadata convention for animal acoustic telemetry data (document and tables)](http://ioostech.googlecode.com/files/AAT%20Metadata%20Convention%20v1.2.pdf)
-  - [Data System Architecture Implementation Plan](http://habu.apl.washington.edu/mayorga/aat/AAT_DataSystemArchitectureImplementationPlan_FINAL.pdf)
-     - [Presentation by Emilio Mayorga at the Final AAT meeting, June 2013](http://habu.apl.washington.edu/mayorga/aat/Emilio_Presentation_AATworkshop_2013Jun13.pdf)
+  - [Data System Architecture Implementation Plan](http://data.nanoos.org/files/aat/AAT_DataSystemArchitectureImplementationPlan_FINAL.pdf)
+     - [Presentation by Emilio Mayorga at the Final AAT meeting, June 2013](http://data.nanoos.org/files/aat/Emilio_Presentation_AATworkshop_2013Jun13.pdf)
 
 
 # Project Data Services
@@ -49,15 +49,15 @@ Although the AAT project focused on the Pacific NW for needs assessments and dat
  * Data Services being implemented by this project are based on [ERDDAP](http://coastwatch.pfeg.noaa.gov/erddap/index.html) and [GeoServer](http://geoserver.org). Configuration files and instructions to set up ERDDAP and GeoServer instances for AAT data will be provided at the end of the project.
  * A collection of Python data access and visualization scripts that illustrated these services are [accessible as IPython notebooks](https://www.mygists.info/emiliom/tags/animalacoustictelem). Here are two that access data from ERDDAP: [Example 1](http://nbviewer.ipython.org/6767422) and [Example 2](http://nbviewer.ipython.org/6767450).
  * Dataset ISO Metadata from ERDDAP, with experimental, partial XSL style sheet
-   * [Live-rendering (as HTML) example, in javascript](http://habu.apl.washington.edu/mayorga/aat/ISOMetadataFinalExamplePackage/xslt_client.html)
-   * [XML](http://habu.apl.washington.edu/mayorga/aat/ISOMetadataFinalExamplePackage/otnnepMOSERAnTags_iso19115.xml) and [XSL](http://habu.apl.washington.edu/mayorga/aat/ISOMetadataFinalExamplePackage/OTNmetadata_Emilio.xsl) documents used in the example. The XML document is static and was pre-fetched from ERDDAP.
+   * [Live-rendering (as HTML) example, in javascript](http://data.nanoos.org/files/aat/ISOMetadataFinalExamplePackage/xslt_client.html)
+   * [XML](http://data.nanoos.org/files/aat/ISOMetadataFinalExamplePackage/otnnepMOSERAnTags_iso19115.xml) and [XSL](http://data.nanoos.org/files/aat/ISOMetadataFinalExamplePackage/OTNmetadata_Emilio.xsl) documents used in the example. The XML document is static and was pre-fetched from ERDDAP.
  * AAT NANOOS PostgreSQL/PostGIS database and ERDDAP service configuration
-    * [Package documentation](http://habu.apl.washington.edu/mayorga/aat/AAT_NANOOSConfigurations_FinalPackageDocs.pdf)
-   * [Zip file with documentation, code, and configuration files](http://habu.apl.washington.edu/mayorga/aat/AAT_NANOOSpg2erddap_exchange.zip)
- * [AAT_ERDDAP_datasets_listing_and_properties.xls](http://habu.apl.washington.edu/mayorga/aat/AAT_ERDDAP_datasets_listing_and_properties.xls)
- * [ERDDAP global attributes: Dataset & Discovery Metadata](http://habu.apl.washington.edu/mayorga/aat/ERDDAPDatasetMetadata-UseAndStatus-FINAL.pdf)
+    * [Package documentation](http://data.nanoos.org/files/aat/AAT_NANOOSConfigurations_FinalPackageDocs.pdf)
+   * [Zip file with documentation, code, and configuration files](http://data.nanoos.org/files/aat/AAT_NANOOSpg2erddap_exchange.zip)
+ * [AAT_ERDDAP_datasets_listing_and_properties.xls](http://data.nanoos.org/files/aat/AAT_ERDDAP_datasets_listing_and_properties.xls)
+ * [ERDDAP global attributes: Dataset & Discovery Metadata](http://data.nanoos.org/files/aat/ERDDAPDatasetMetadata-UseAndStatus-FINAL.pdf)
  * QGIS project file
- * GeoServer GetCapabilities XML documents (static, pre-generated): [WMS](http://habu.apl.washington.edu/mayorga/aat/geoserver-otnnep-WMS-GetCapabilities.xml) & [WFS](http://habu.apl.washington.edu/mayorga/aat/geoserver-otnnep-WFS-GetCapabilities.xml)
+ * GeoServer GetCapabilities XML documents (static, pre-generated): [WMS](http://data.nanoos.org/files/aat/geoserver-otnnep-WMS-GetCapabilities.xml) & [WFS](http://data.nanoos.org/files/aat/geoserver-otnnep-WFS-GetCapabilities.xml)
 
 >_**NOTE:** Other documents and configuration files that becomes available may be referenced here._
 
